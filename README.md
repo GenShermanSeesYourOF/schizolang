@@ -1,2 +1,2 @@
 # schizolang
-A schizophrenic coding language.
+For now the word "Cheeseburger" is acting as a placeholder

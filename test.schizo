@@ -1,0 +1,52 @@
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Cheesebigger               # Increment the value in the current cell
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the right
+Cheesebigger               # Increment the value in the current cell
+Cheesebigger               # Increment the value in the current cell
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+bigburger                  # Output the character (should display 'H')
+
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Cheesebigger               # Increment the value in the current cell
+bigburger                  # Output the character (should display 'e')
+
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+bigburger                  # Output the character (should display 'l')
+
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left
+Cheesebigger               # Increment the value in the current cell
+Cheesebigger               # Increment the value in the current cell
+Lettuceburger              # Move pointer to the left

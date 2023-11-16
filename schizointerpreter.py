@@ -1,8 +1,10 @@
+
 import re
 
 patterns = [
     #Shows the patterns which I will add
-    (r"CHEESEBURGER", "CHEESEBURGER"),
+    #Credit to Stack overflow and youtube for these patterns
+    (r"CHEESEBURGER", "CHEESEBURGER"), #r is for raw code
     (r"Cheeseborger", "Cheeseborger"),
     (r"Cheesebigger", "Cheesebigger"),
     (r"Lettuceburger", "Lettuceburger"),
@@ -20,7 +22,7 @@ instruction_set = {
     "bigburger": lambda memory, pointer: print(chr(memory[pointer[0]]), end=""),
     "INPUT": lambda memory, pointer: memory.__setitem__(pointer[0], ord(input("Enter a character: "))),
 }
-
+#My lexer
 def lex(input_string):
     tokens = []
     while input_string:
@@ -36,6 +38,7 @@ def lex(input_string):
             break
     return tokens
 
+#My interpreter
 def interpret(filename):
     try:
         with open(filename, 'r') as file:

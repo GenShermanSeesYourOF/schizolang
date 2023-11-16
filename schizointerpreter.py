@@ -1,6 +1,7 @@
 import re
 
 patterns = [
+    #Shows the patterns which I will add
     (r"CHEESEBURGER", "CHEESEBURGER"),
     (r"Cheeseborger", "Cheeseborger"),
     (r"Cheesebigger", "Cheesebigger"),
@@ -9,7 +10,9 @@ patterns = [
     (r"INPUT", "INPUT"),
 ]
 
+#Instruction set for anything you can code in
 instruction_set = {
+    #The world cheeseburger is used as a placeholder for now to simplify things
     "CHEESEBURGER": lambda memory, pointer: memory.__setitem__(pointer[0], memory[pointer[0]] + 1),
     "Cheeseborger": lambda memory, pointer: memory.__setitem__(pointer[0], memory[pointer[0]] - 1),
     "Cheesebigger": lambda memory, pointer: pointer.__setitem__(0, pointer[0] + 1),
@@ -39,7 +42,7 @@ def interpret(filename):
             code = file.read()
 
         tokens = lex(code)
-        memory = [0] * 30000  # Memory tape with 30000 cells
+        memory = [0] * 30000  #Memory tape with 30000 cells
         pointer = [0]
 
         for token_type, value in tokens:
@@ -50,5 +53,5 @@ def interpret(filename):
         print(f"File '{filename}' not found.")
 
 if __name__ == "__main__":
-    filename = "test.schizo"  # Replace with your input file
+    filename = "test.schizo" #Input file
     interpret(filename)
